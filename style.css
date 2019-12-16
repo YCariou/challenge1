@@ -1,0 +1,196 @@
+/* GENERAL */
+
+* {
+	margin: 0 auto;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #000;
+}
+.bigcontainer {
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/background.jpg);
+	background-size: cover;
+	width:1366px;
+}
+
+.container {
+	width: 1100px;
+}
+
+/* >>>>> HOME <<<<< */
+
+/* NAVBAR */
+
+nav {
+	display: flex;
+	padding-top: 66px;
+}
+
+nav a {
+	text-decoration: none;
+	align-items: center;
+	color: #828282;
+	width: 100%;
+	font-weight: bold;
+}
+
+nav a:hover {
+	color:#fff;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+}
+
+nav ul li {
+	display: flex;
+	padding-right: 38px;
+
+}
+
+/* MAIN IMAGE */
+
+header {
+	display:flex;
+	flex-direction: column;
+	height: 644px;
+	width: 1100px;
+	position: relative;
+}
+
+h1 {
+	color: #fff;
+	margin: auto;
+	font-size: 500%;
+}
+
+header p {
+	position: absolute;
+	top: 400px;
+	left: 525px;
+}
+
+/* VIDEOS */
+
+h2 {
+	color: #fff;
+	display: inline-block;
+}
+
+.mainvideos{
+	position: relative;
+
+}
+
+.mainvideos p{
+	position: absolute;
+	right:0;
+	display: inline-block;
+}
+
+.videos {
+	display: flex;
+	/*justify-content: space-between;*/
+	width: 1100px;
+}
+
+
+.videos article:nth-child(1) {
+	padding: 20px 20px 20px 0;
+	border-style: solid solid solid none;
+}
+
+.videos article:nth-child(2) {
+	padding: 20px;
+}
+
+.videos article:nth-child(3) {
+	padding: 20px 0 20px 20px;
+	border-style: solid none solid solid;
+}
+
+.videos article {
+	border: solid 1px #fff;
+	margin: 0;
+}
+
+article img {
+	height: 193px;
+	width: 339px;
+}
+
+article h4 {
+	padding: 15px 0 5px 0;
+	color: #fff;
+}
+/* TOUR DATE */
+
+.tournée {
+	margin-top: 80px;
+}
+
+.tournée h2 {
+	margin-bottom:22px;
+}
+
+.tournéeband {
+	border: #fff 1px;
+	border-style: solid none none none;
+	height: 60px;
+}
+
+.tournéeband:nth-child(6) {
+	border: 1px #fff;
+	border-style: solid none solid none;
+}
+
+.tournée p {
+	display: inline-block;
+	vertical-align: middle;
+
+}
+
+.tournée p:nth-child(1) {
+	color: #ababab;
+}
+
+.tournée p:nth-child(2) {
+	color: #fff;
+	font-size: 150%;
+}
+
+.tournée p:nth-child(3) {
+	color: #ababab;
+	margin: 0 285px 0 85px;
+	width: 200px;
+	height: 60px;
+	padding: 20px;
+}
+
+.tournée p:nth-child(4) {
+	color: #ababab;
+}
+
+.gigs {
+	height: 115px;
+	display: flex;
+}
+
+.gigs a {
+	text-decoration: none;
+	color: #ababab;
+	margin: auto;
+	position: relative;
+	bottom: 20px;
+}
+
+.gigs a:hover {
+	color: #fff;
+}
+
+/* ABOUT */
+
+/* FOOTER */
