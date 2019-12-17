@@ -54,7 +54,7 @@ body {
 }
 
 .bigcontainer {
-	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/background.jpg) top no-repeat;
+	background: url(images/background.jpg) top no-repeat;
 	width:1288px;
 	background-position-y: -450px;
 	background-size: cover;
@@ -68,7 +68,12 @@ body {
 .active {
 	color: #fff;
 }
-/* >>>>> HOME <<<<< */
+
+.bandeaunoir {
+	height: 391px;
+	background: rgba(0,0,0,0.5);
+	width: 1288px;
+}
 
 /* NAVBAR */
 
@@ -139,8 +144,7 @@ h2 {
 	height: 591px;
 	border: 1px #ababab;
 	border-style: solid none none none;
-	padding-top: 60px;
-
+	padding-top: 35px;
 }
 
 .mainvideos p{
@@ -190,6 +194,7 @@ h2 {
 	border: 1px #ababab;
 	border-style: solid none solid none;
 	display: flex;
+	margin-top:60px;
 }
 .about article {
 	width: 33%;
