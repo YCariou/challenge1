@@ -1,0 +1,245 @@
+/*TYPO */ 
+
+@font-face {
+	font-family: "mukta";
+	src: url("font/mukta/Mukta-Light.ttf");
+}
+
+/*Général */
+
+* {
+	margin: 0 auto;
+	padding: 0;
+
+}
+
+body {
+	background: #000;
+	color: white;
+}
+.bigcontainer {
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/background.jpg) top;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position-y:-350px;
+	width:1366px;
+}
+
+h1 {
+	color: #fff;
+	margin: auto;
+	font-size: 500%;
+	font-weight: lighter;
+	font-family: "mukta";
+	padding-top: 50px;
+}
+h2{
+	font-family: "Mukta";
+	font-weight: lighter;
+	font-size: 32px;
+	padding-top: 80px;
+}
+h4{
+	font-family: "Mukta";
+	font-size: 22px;
+}
+p{
+	font-family: sans-serif;
+	font-size: 18px;
+}
+
+/* NAVBAR */
+.HEADER {
+	width:1365px;
+	height: 342px; 
+	text-align: center;
+}
+
+nav {
+	display: flex;
+	padding-top: 66px;
+}
+
+nav a {
+	text-decoration: none;
+	align-items: center;
+	color: #828282;
+	width: 100%;
+	font-weight: bold;
+}
+
+nav a:hover {
+	color:#fff;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+}
+
+nav ul li {
+	display: flex;
+	padding-right: 38px;
+
+}
+
+.active{
+	color: white;
+}
+
+
+/*Main */ 
+.main{
+	display: flex; 
+	justify-content: space-around;
+	align-content: center;
+	width: 1100px;
+	border-top: 1px solid #ababab;
+	margin-bottom: 50px;
+}
+
+.album{
+ 	width: 380px;
+ 	height: 690px;
+}
+
+.pochette{
+	margin-top: 10px;
+	width:340px;
+	height: 340px;
+	display: block;
+}
+
+button {
+	width: 340px;
+	height: 40px;
+	color: white;
+	background: rgba(18, 16, 16, 0.6);
+	border:none;
+	margin-top: 5px;
+
+}
+
+.tableau{
+	width:725px;
+	height: 740px;
+}
+
+
+
+
+
+
+/* ABOUT */
+
+.about {
+	width: 1100px;
+	height: 511px;
+	border: 1px #ababab;
+	border-style: solid none solid none;
+	display: flex;
+}
+.about article {
+	width: 33%;
+}
+
+.about article:nth-child(2) {
+	margin: 0 20px;
+}
+
+.about img {
+	width: 472px;
+	height: 342px;
+}
+
+.about p, .about a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.about article:nth-child(3) {
+	text-align: left;
+}
+
+.about a {
+	padding: 7px 0 18px 0;
+	font-height: bolder;
+	display: block;
+}
+
+.about h4 {
+	color: #fff;
+	padding: 57px 0 33px 0;
+}
+
+.about article sub {
+	margin-bottom: 46px;
+	display: block;
+	color: #ababab;
+}
+
+/* FOOTER */
+
+footer {
+	height: 190px;
+}
+
+.pfooter {
+	color: #fff;
+	text-align: center;
+	font-size: 90%;
+	position: relative;
+	bottom: 15px;
+}
+
+footer ul {
+	list-style: none;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+
+footer ul li {
+	padding: 28px 0 55px 0;
+	margin: 0;
+}
+
+footer ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 180%;
+}
+
+/* LOGO */
+
+@font-face {
+    font-family: 'Mono Social Icons Font';
+    src: url('monosocialiconsfont-master/MonoSocialIconsFont-1.10.eot');
+    src: url('monosocialiconsfont-master/MonoSocialIconsFont-1.10.eot?#iefix') format('embedded-opentype'),
+         url('monosocialiconsfont-master/MonoSocialIconsFont-1.10.woff') format('woff'),
+         url('monosocialiconsfont-master/MonoSocialIconsFont-1.10.ttf') format('truetype'),
+         url('monosocialiconsfont-master/MonoSocialIconsFont-1.10.svg#MonoSocialIconsFont') format('svg');
+    src: url('monosocialiconsfont-master/MonoSocialIconsFont-1.10.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.symbol, a.symbol:before {
+    font-family: 'Mono Social Icons Font';
+    -webkit-text-rendering: optimizeLegibility;
+    -moz-text-rendering: optimizeLegibility;
+    -ms-text-rendering: optimizeLegibility;
+    -o-text-rendering: optimizeLegibility;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+
+a.symbol:before {
+    content: attr(title);
+    margin-right: 0.3em;
+    font-size: 130%;
+}
