@@ -32,6 +32,14 @@ a.symbol:before {
     font-size: 130%;
 }
 
+/* FONT */
+
+@font-face {
+	font-family: 'Mukta';
+	src: url('font/mukta/Mukta-Light.ttf');
+
+}
+
 /* GENERAL */
 
 * {
@@ -48,12 +56,16 @@ body {
 	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/background.jpg) top;
 	background-size: cover;
 	width:1366px;
+	background-attachment: fixed;
 }
 
 .container {
 	width: 1100px;
 }
 
+.active {
+	color: #fff;
+}
 /* >>>>> HOME <<<<< */
 
 /* NAVBAR */
@@ -96,16 +108,21 @@ header {
 	position: relative;
 }
 
+header h2 {
+	color: #ababab;
+	position: relative;
+	bottom: 250px;
+	font-size: 100%;
+}
+
 h1 {
 	color: #fff;
 	margin: auto;
-	font-size: 500%;
-}
+	font-size: 600%;
+	font-family: Mukta;
+	font-weight: 20;
 
-header p {
-	position: absolute;
-	top: 400px;
-	left: 525px;
+
 }
 
 /* VIDEOS */
@@ -124,6 +141,7 @@ h2 {
 	position: absolute;
 	right:0;
 	display: inline-block;
+	color: #ababab;
 }
 
 .videos {
@@ -190,11 +208,15 @@ h2 {
 
 .tournée p:nth-child(1) {
 	color: #ababab;
+	margin-left: 10px;
+	margin-right: 20px;
+
 }
 
 .tournée p:nth-child(2) {
 	color: #fff;
 	font-size: 150%;
+	font-weight: bolder;
 }
 
 .tournée p:nth-child(3) {
@@ -203,6 +225,7 @@ h2 {
 	width: 200px;
 	height: 60px;
 	padding: 20px;
+	font-weight: bolder;
 }
 
 .tournée p:nth-child(4) {
@@ -220,6 +243,7 @@ h2 {
 	margin: auto;
 	position: relative;
 	bottom: 20px;
+	font-weight: bolder;
 }
 
 .gigs a:hover {
