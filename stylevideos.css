@@ -52,9 +52,10 @@ body {
 	background: #000;
 	font-family: sans-serif;
 }
+
 .bigcontainer {
 	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/background.jpg) top no-repeat;
-	width:1366px;
+	width:1288px;
 	background-position-y: -450px;
 	background-size: cover;
 	height: 840px;
@@ -102,15 +103,17 @@ nav ul li {
 /* MAIN IMAGE */
 
 header {
-	display:flex;
-	flex-direction: column;
+/*	display:flex;
+	flex-direction: column;*/
 	height: 267px;
 	width: 1100px;
-	position: relative;
+	/*position: relative;*/
+	text-align: center;
 }
 
 header h2 {
 	color: #ababab;
+	padding: 91px 0 29px 0;
 	/*position: relative;
 	bottom: 250px;
 	font-size: 100%;*/
@@ -118,12 +121,10 @@ header h2 {
 
 h1 {
 	color: #fff;
-	margin: auto;
 	font-size: 600%;
 	font-family: Mukta;
 	font-weight: 20;
-
-
+	height: 50px;
 }
 
 /* VIDEOS */
@@ -138,6 +139,7 @@ h2 {
 	height: 591px;
 	border: 1px #ababab;
 	border-style: solid none none none;
+	padding-top: 60px;
 
 }
 
