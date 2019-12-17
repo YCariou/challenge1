@@ -36,12 +36,16 @@ h1 {
 h2{
 	font-family: "Mukta";
 	font-weight: lighter;
+	font-size: 32px;
+	padding-top: 80px;
 }
 h4{
 	font-family: "Mukta";
+	font-size: 22px;
 }
 p{
 	font-family: sans-serif;
+	font-size: 18px;
 }
 
 
@@ -50,7 +54,7 @@ p{
 /* NAVBAR */
 .HEADER {
 	width:1365px;
-	height: 250px; 
+	height: 342px; 
 	text-align: center;
 }
 
@@ -92,7 +96,8 @@ nav ul li {
 	justify-content: space-around;
 	align-content: center;
 	width: 1100px;
-	border-top: 1px solid;
+	border-top: 1px solid #ababab;
+	margin-bottom: 50px;
 	
 }
 
@@ -100,44 +105,51 @@ nav ul li {
 	width: 755px; 
 	margin-top: 50px;
 }
- 
+.colorgrey{
+	color: grey;
+}
 #name {
  width: 300px;
  height: 40px;
- opacity:0.3;
+	background: rgba(0, 0, 0, 0.2);
+	border: 1px solid rgba(100, 100, 100, 0.4);
  margin-bottom: 10px;
 }
+
 
 #mail { 
 	width: 300px;
 	height: 40px;
-	opacity:0.1;
+
 	margin-bottom: 10px;
-	border-style: solid;
-	border-color: red;
+	background: rgba(0, 0, 0, 0.2);
+	border: 1px solid rgba(100, 100, 100, 0.4);
  }
 
 #website {
 	width: 300px;
  	height: 40px;
-	opacity:0.3;
+	background: rgba(0, 0, 0, 0.2);
+	border: 1px solid rgba(100, 100, 100, 0.4);
 	 margin-bottom: 10px;
 }
 #msg{
 	width: 575px;
 	height: 200px;
-	opacity:0.3;
+	background: rgba(0, 0, 0, 0.2);
+	border: 1px solid rgba(100, 100, 100, 0.4);
 	 margin-bottom: 10px;
 }
 
 button {
 	width: 115px;
 	height: 40px;
-	color: grey;
-	border: 2px solid;
-	opacity: 0.5;
+	color: white;
+	background: rgba(18, 16, 16, 0.6);
+	border:none;
 }
 
+/* On the Right */ 
 
 .latestnews {
 	width: 345px;
@@ -146,10 +158,17 @@ button {
 #search{
 	width: 340px;
 	height:40px;
-	opacity:0.3;
-	border: solid 1px white;
+	background: rgba(0, 0, 0, 0.2);
+	border: 1px solid #ababab;
 	margin-bottom: 55px;
 	color: grey;
+}
+.gras{
+	font-weight: bolder;
+	padding-bottom: 0;
+}
+.latestnews p {
+	padding: 20px 0 0 0;
 }
 
 
@@ -158,7 +177,7 @@ button {
 .about {
 	width: 1100px;
 	height: 511px;
-	border: 1px #fff;
+	border: 1px #ababab;
 	border-style: solid none solid none;
 	display: flex;
 }
@@ -181,12 +200,13 @@ button {
 }
 
 .about article:nth-child(3) {
-	display: flex;
-	flex-direction: column;
+	text-align: left;
 }
 
 .about a {
 	padding: 7px 0 18px 0;
+	font-height: bolder;
+	display: block;
 }
 
 .about h4 {
@@ -194,6 +214,11 @@ button {
 	padding: 57px 0 33px 0;
 }
 
+.about article sub {
+	margin-bottom: 46px;
+	display: block;
+	color: #ababab;
+}
 
 /* FOOTER */
 
