@@ -52,11 +52,13 @@ body {
 	background: #000;
 	font-family: sans-serif;
 }
+
 .bigcontainer {
-	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/background.jpg) top;
+	background: url(images/background.jpg) top no-repeat;
+	width:1288px;
+	background-position-y: -450px;
 	background-size: cover;
-	width:1366px;
-	background-attachment: fixed;
+	height: 840px;
 }
 
 .container {
@@ -65,6 +67,12 @@ body {
 
 .active {
 	color: #fff;
+}
+
+.bandeaunoir {
+	height: 391px;
+	background: rgba(0,0,0,0.5);
+	width: 1288px;
 }
 
 /* NAVBAR */
@@ -100,15 +108,17 @@ nav ul li {
 /* MAIN IMAGE */
 
 header {
-	display:flex;
-	flex-direction: column;
-	height: 644px;
+/*	display:flex;
+	flex-direction: column;*/
+	height: 267px;
 	width: 1100px;
-	position: relative;
+	/*position: relative;*/
+	text-align: center;
 }
 
 header h2 {
 	color: #ababab;
+	padding: 91px 0 29px 0;
 	position: relative;
 	bottom: 250px;
 	font-size: 100%;
@@ -116,69 +126,67 @@ header h2 {
 
 h1 {
 	color: #fff;
-	margin: auto;
 	font-size: 600%;
 	font-family: Mukta;
 	font-weight: 20;
+	height: 50px;
 }
 
-/* VIDEOS */
+/* TOUR */
 
-h2 {
-	color: #fff;
-	display: inline-block;
-}
 
-.mainvideos{
-	position: relative;
-}
-
-.mainvideos p{
-	position: absolute;
-	right:0;
-	display: inline-block;
-	color: #ababab;
-}
-
-.videos {
+.upcoming {
+	height: 59px;
+	display:flex;
+	border: 1px #ababab;
+	border-style: solid none none none;
 	display: flex;
-	/*justify-content: space-between;*/
-	width: 1100px;
 }
 
-
-.videos article:nth-child(1) {
-	padding: 20px 20px 20px 0;
-	border-style: solid solid solid none;
+.upcoming ul {
+	list-style: none;
+	display: flex;
+	position: relative;
+	top: 10px;
+	
 }
 
-.videos article:nth-child(2) {
-	padding: 20px;
+.evidence {
+	background: rgba(0,0,0,0.5);
+	height: 38px;
+	width: 112px;
+	display: flex;
+	position: relative;
+	bottom: 10px;
 }
 
-.videos article:nth-child(3) {
-	padding: 20px 0 20px 20px;
-	border-style: solid none solid solid;
+.upcoming ul li {
+	display: flex;
+	padding-right: 38px;
 }
 
-.videos article {
-	border: solid 1px #ababab;
-	margin: 0;
+.upcoming ul li a {
+	text-decoration: none;
+	align-items: center;
+	color: #fafafa;
+	width: 100%;
+	font-weight: bold;
 }
 
-.videos article img {
-	height: 193px;
-	width: 339px;
+.support {
+	height: 178px;
+	border: 1px #ababab;
+	border-style: solid none none none;
+	display: flex;
 }
 
-.videos article h4 {
-	padding: 15px 0 5px 0;
-	color: #fff;
+.support p {
+	margin: auto;
+	font-size: 24px;
 }
-/* TOUR DATE */
 
 .tournée {
-	margin-top: 80px;
+	/*margin-top: 80px;*/
 }
 
 .tournée h2 {
@@ -203,7 +211,7 @@ h2 {
 }
 
 .tournée p:nth-child(1) {
-	color: #ababab;
+	color: #fafafa;
 	margin-left: 10px;
 	margin-right: 20px;
 
@@ -216,7 +224,7 @@ h2 {
 }
 
 .tournée p:nth-child(3) {
-	color: #ababab;
+	color: #fafafa;
 	margin: 0 285px 0 85px;
 	width: 200px;
 	height: 60px;
@@ -225,7 +233,25 @@ h2 {
 }
 
 .tournée p:nth-child(4) {
-	color: #ababab;
+	color: #fafafa;
+}
+
+.tournéebandspecial {
+	position: relative;
+	height: 86px;
+	border: #ababab 1px;
+	border-style: solid none none none;
+}
+
+.tournéeband:last-child p {
+	padding-right: 2px;
+}
+
+.description {
+	color: #fafafa;
+	bottom: 15px;
+	left: 205px;
+	position: absolute;
 }
 
 .gigs {
@@ -303,7 +329,7 @@ footer {
 .pfooter {
 	color: #fff;
 	text-align: center;
-	font-size: 90%;
+	font-size: 14.4px;
 	position: relative;
 	bottom: 15px;
 }
