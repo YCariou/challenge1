@@ -1,0 +1,261 @@
+/* LOGO */
+
+@font-face {
+    font-family: 'Mono Social Icons Font';
+    src: url('monosocialiconsfont-master/MonoSocialIconsFont-1.10.eot');
+    src: url('monosocialiconsfont-master/MonoSocialIconsFont-1.10.eot?#iefix') format('embedded-opentype'),
+         url('monosocialiconsfont-master/MonoSocialIconsFont-1.10.woff') format('woff'),
+         url('monosocialiconsfont-master/MonoSocialIconsFont-1.10.ttf') format('truetype'),
+         url('monosocialiconsfont-master/MonoSocialIconsFont-1.10.svg#MonoSocialIconsFont') format('svg');
+    src: url('monosocialiconsfont-master/MonoSocialIconsFont-1.10.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.symbol, a.symbol:before {
+    font-family: 'Mono Social Icons Font';
+    -webkit-text-rendering: optimizeLegibility;
+    -moz-text-rendering: optimizeLegibility;
+    -ms-text-rendering: optimizeLegibility;
+    -o-text-rendering: optimizeLegibility;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+
+a.symbol:before {
+    content: attr(title);
+    margin-right: 0.3em;
+    font-size: 130%;
+}
+
+/* FONT */
+
+@font-face {
+	font-family: 'Mukta';
+	src: url('font/mukta/Mukta-Light.ttf');
+
+}
+
+/* GENERAL */
+
+* {
+	margin: 0 auto;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #000;
+	font-family: sans-serif;
+}
+.bigcontainer {
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/background.jpg) top no-repeat;
+	width:1366px;
+	background-position-y: -450px;
+	background-size: cover;
+	height: 840px;
+}
+
+.container {
+	width: 1100px;
+}
+
+.active {
+	color: #fff;
+}
+/* >>>>> HOME <<<<< */
+
+/* NAVBAR */
+
+nav {
+	display: flex;
+	padding-top: 66px;
+}
+
+nav a {
+	text-decoration: none;
+	align-items: center;
+	color: #828282;
+	width: 100%;
+	font-weight: bold;
+}
+
+nav a:hover {
+	color:#fff;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+}
+
+nav ul li {
+	display: flex;
+	padding-right: 38px;
+
+}
+
+/* MAIN IMAGE */
+
+header {
+	display:flex;
+	flex-direction: column;
+	height: 267px;
+	width: 1100px;
+	position: relative;
+}
+
+header h2 {
+	color: #ababab;
+	/*position: relative;
+	bottom: 250px;
+	font-size: 100%;*/
+}
+
+h1 {
+	color: #fff;
+	margin: auto;
+	font-size: 600%;
+	font-family: Mukta;
+	font-weight: 20;
+
+
+}
+
+/* VIDEOS */
+
+h2 {
+	color: #fff;
+	display: inline-block;
+}
+
+.mainvideos{
+	position: relative;
+	height: 591px;
+	border: 1px #ababab;
+	border-style: solid none none none;
+
+}
+
+.mainvideos p{
+	position: absolute;
+	right:0;
+	display: inline-block;
+	color: #ababab;
+}
+
+.videos {
+	display: flex;
+	width: 1100px;
+}
+
+
+.videos article:nth-child(1) {
+	padding: 20px 20px 20px 0;
+}
+
+.videos article:nth-child(2) {
+	padding: 20px;
+}
+
+.videos article:nth-child(3) {
+	padding: 20px 0 20px 20px;
+}
+
+.videos article {
+	margin: 0;
+}
+
+.videos article img {
+	height: 193px;
+	width: 339px;
+}
+
+.videos article h4 {
+	padding: 15px 0 5px 0;
+	color: #fff;
+}
+
+/* ABOUT */
+
+.about {
+	width: 1100px;
+	height: 511px;
+	border: 1px #ababab;
+	border-style: solid none solid none;
+	display: flex;
+}
+.about article {
+	width: 33%;
+}
+
+.about article:nth-child(2) {
+	margin: 0 20px;
+}
+
+.about img {
+	width: 340px;
+	height: 340px;
+}
+
+.about p, .about a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.about article:nth-child(3) {
+	text-align: left;
+}
+
+.about a {
+	padding: 7px 0 18px 0;
+	font-height: bolder;
+	display: block;
+}
+
+.about h4 {
+	color: #fff;
+	padding: 57px 0 33px 0;
+}
+
+.about article sub {
+	margin-bottom: 46px;
+	display: block;
+	color: #ababab;
+}
+
+/* FOOTER */
+
+footer {
+	height: 190px;
+}
+
+.pfooter {
+	color: #fff;
+	text-align: center;
+	font-size: 90%;
+	position: relative;
+	bottom: 15px;
+}
+
+footer ul {
+	list-style: none;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+
+footer ul li {
+	padding: 28px 0 55px 0;
+	margin: 0;
+}
+
+footer ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 180%;
+}
