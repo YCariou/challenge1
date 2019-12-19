@@ -40,6 +40,17 @@ a.symbol:before {
 
 }
 
+/* BARRE AUDIO */
+
+.divson {
+	position: fixed;
+	bottom: 0px;
+}
+
+iframe {
+ 	width: 1100px;
+  }
+
 /* GENERAL */
 
 * {
@@ -51,11 +62,9 @@ a.symbol:before {
 body {
 	background: #000;
 	font-family: sans-serif;
-}
-.bigcontainer {
 	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/background.jpg) top;
 	background-size: cover;
-	width:1366px;
+	background-position-y: -500px;
 	background-attachment: fixed;
 }
 
@@ -162,7 +171,7 @@ h2 {
 }
 
 .videos article {
-	border: solid 1px #ababab;
+	border: solid 1px grey;
 	margin: 0;
 }
 
@@ -186,13 +195,13 @@ h2 {
 }
 
 .tournéeband {
-	border: #ababab 1px;
+	border: grey 1px;
 	border-style: solid none none none;
 	height: 60px;
 }
 
 .tournéeband:nth-child(6) {
-	border: 1px #ababab;
+	border: 1px grey;
 	border-style: solid none solid none;
 }
 
@@ -251,7 +260,7 @@ h2 {
 .about {
 	width: 1100px;
 	height: 511px;
-	border: 1px #ababab;
+	border: 1px grey;
 	border-style: solid none solid none;
 	display: flex;
 }
@@ -297,7 +306,7 @@ h2 {
 /* FOOTER */
 
 footer {
-	height: 190px;
+	height: 250px;
 }
 
 .pfooter {
