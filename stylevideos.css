@@ -52,11 +52,13 @@ body {
 	background: #000;
 	font-family: sans-serif;
 }
+
 .bigcontainer {
-	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/background.jpg) top;
+	background: url(images/background.jpg) top no-repeat;
+	width:1288px;
+	background-position-y: -450px;
 	background-size: cover;
-	width:1366px;
-	background-attachment: fixed;
+	height: 840px;
 }
 
 .container {
@@ -65,6 +67,12 @@ body {
 
 .active {
 	color: #fff;
+}
+
+.bandeaunoir {
+	height: 391px;
+	background: rgba(0,0,0,0.5);
+	width: 1288px;
 }
 
 /* NAVBAR */
@@ -100,37 +108,46 @@ nav ul li {
 /* MAIN IMAGE */
 
 header {
-	display:flex;
-	flex-direction: column;
-	height: 644px;
+/*	display:flex;
+	flex-direction: column;*/
+	height: 267px;
 	width: 1100px;
-	position: relative;
+	/*position: relative;*/
+	text-align: center;
 }
 
 header h2 {
-	color: #ababab;
-	position: relative;
+	color: #fafafa;
+	padding: 91px 0 29px 0;
+	/*position: relative;
 	bottom: 250px;
-	font-size: 100%;
+	font-size: 100%;*/
 }
 
 h1 {
 	color: #fff;
-	margin: auto;
-	font-size: 600%;
+	font-size: 500%;
 	font-family: Mukta;
-	font-weight: 20;
+	font-weight: lighter;
+	height: 50px;
 }
 
 /* VIDEOS */
 
 h2 {
-	color: #fff;
+	color: #fafafa;
 	display: inline-block;
+	font-family: Mukta;
+	font-weight: lighter;
+	font-size: 32px;
 }
 
 .mainvideos{
 	position: relative;
+	height: 591px;
+	border: 1px grey;
+	border-style: solid none none none;
+	padding-top: 35px;
 }
 
 .mainvideos p{
@@ -142,14 +159,12 @@ h2 {
 
 .videos {
 	display: flex;
-	/*justify-content: space-between;*/
 	width: 1100px;
 }
 
 
 .videos article:nth-child(1) {
 	padding: 20px 20px 20px 0;
-	border-style: solid solid solid none;
 }
 
 .videos article:nth-child(2) {
@@ -158,11 +173,9 @@ h2 {
 
 .videos article:nth-child(3) {
 	padding: 20px 0 20px 20px;
-	border-style: solid none solid solid;
 }
 
 .videos article {
-	border: solid 1px #ababab;
 	margin: 0;
 }
 
@@ -175,85 +188,16 @@ h2 {
 	padding: 15px 0 5px 0;
 	color: #fff;
 }
-/* TOUR DATE */
-
-.tournée {
-	margin-top: 80px;
-}
-
-.tournée h2 {
-	margin-bottom:22px;
-}
-
-.tournéeband {
-	border: #ababab 1px;
-	border-style: solid none none none;
-	height: 60px;
-}
-
-.tournéeband:nth-child(6) {
-	border: 1px #ababab;
-	border-style: solid none solid none;
-}
-
-.tournée p {
-	display: inline-block;
-	vertical-align: middle;
-
-}
-
-.tournée p:nth-child(1) {
-	color: #ababab;
-	margin-left: 10px;
-	margin-right: 20px;
-
-}
-
-.tournée p:nth-child(2) {
-	color: #fff;
-	font-size: 150%;
-	font-weight: bolder;
-}
-
-.tournée p:nth-child(3) {
-	color: #ababab;
-	margin: 0 285px 0 85px;
-	width: 200px;
-	height: 60px;
-	padding: 20px;
-	font-weight: bolder;
-}
-
-.tournée p:nth-child(4) {
-	color: #ababab;
-}
-
-.gigs {
-	height: 115px;
-	display: flex;
-}
-
-.gigs a {
-	text-decoration: none;
-	color: #ababab;
-	margin: auto;
-	position: relative;
-	bottom: 20px;
-	font-weight: bolder;
-}
-
-.gigs a:hover {
-	color: #fff;
-}
 
 /* ABOUT */
 
 .about {
 	width: 1100px;
 	height: 511px;
-	border: 1px #ababab;
+	border: 1px grey;
 	border-style: solid none solid none;
 	display: flex;
+	margin-top:60px;
 }
 .about article {
 	width: 33%;
