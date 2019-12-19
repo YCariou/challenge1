@@ -50,15 +50,13 @@ a.symbol:before {
 }
 
 body {
-	font-family: 'Mukta';
-	background: #000;
-	color: #ababab;
-}
-
-.bigcontainer {
-	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/background.jpg);
+	font-family: 'Sans serif';
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/background.jpg) top;
+	background-attachment: fixed;
 	background-size: cover;
+	background-position-y: -500px;
 	width:1366px;
+	color: #ababab;
 }
 
 .container {
@@ -69,6 +67,8 @@ body {
 
 .paragraphs {
 	display: flex;
+	border-top: 1px solid grey;
+	margin-top: 30px;
 }
 
 /* On the Right */ 
@@ -77,6 +77,7 @@ body {
 	width: 345px;
 	margin-top: 50px;
 }
+
 #search{
 	width: 340px;
 	height:40px;
@@ -88,6 +89,7 @@ body {
 .gras{
 	font-weight: bolder;
 	padding-bottom: 0;
+	color: #fff;
 }
 .latestnews p {
 	padding: 20px 0 0 0;
@@ -99,14 +101,19 @@ body {
 }
 
 .leftpara img {
-	width: 600px;
+	width: 630px;
 }
 
 .bybrody {
-	font-weight: bold;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	/*font-weight: bold;*/
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
+
+a {
+	color: #ababab;
+}
+
 
 /* NAVBAR */
 
@@ -152,6 +159,8 @@ h1 {
 	color: #fff;
 	margin: auto;
 	font-size: 500%;
+	font-family: 'Mukta';
+	font-weight: lighter;
 }
 
 header h2 {
@@ -168,18 +177,19 @@ h2 {
 }
 
 h3{
-	color; #fff;
+	color: #fff;
 	font-size: 200%;
-	margin-top: 10px;
+	margin-top: 50px;
 	margin-bottom: 10px;
 }
 
-
-
-
-
 .active {
 	color: #fff;
+}
+
+
+#pmarge {
+	margin-top: 30px;
 }
 
 /* ABOUT */
@@ -187,9 +197,10 @@ h3{
 .about {
 	width: 1100px;
 	height: 511px;
-	border: 1px #fff;
+	border: 1px grey;
 	border-style: solid none solid none;
 	display: flex;
+	margin-top: 30px;
 }
 .about article {
 	width: 33%;
@@ -205,7 +216,7 @@ h3{
 }
 
 .about p, .about a {
-	color: #fff;
+	color: #ababab;
 	text-decoration: none;
 }
 
@@ -215,6 +226,7 @@ h3{
 }
 
 .about a {
+	color: #fff;
 	padding: 7px 0 18px 0;
 }
 
@@ -230,7 +242,7 @@ footer {
 }
 
 .pfooter {
-	color: #fff;
+	color: #ababab;
 	text-align: center;
 	font-size: 90%;
 	position: relative;
