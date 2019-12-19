@@ -117,7 +117,7 @@ header {
 }
 
 header h2 {
-	color: #ababab;
+	color: #fafafa;
 	padding: 91px 0 29px 0;
 	/*position: relative;
 	bottom: 250px;
@@ -126,23 +126,26 @@ header h2 {
 
 h1 {
 	color: #fff;
-	font-size: 600%;
+	font-size: 500%;
 	font-family: Mukta;
-	font-weight: 20;
+	font-weight: lighter;
 	height: 50px;
 }
 
 /* VIDEOS */
 
 h2 {
-	color: #fff;
+	color: #fafafa;
 	display: inline-block;
+	font-family: Mukta;
+	font-weight: lighter;
+	font-size: 32px;
 }
 
 .mainvideos{
 	position: relative;
 	height: 591px;
-	border: 1px #ababab;
+	border: 1px grey;
 	border-style: solid none none none;
 	padding-top: 35px;
 }
@@ -191,7 +194,7 @@ h2 {
 .about {
 	width: 1100px;
 	height: 511px;
-	border: 1px #ababab;
+	border: 1px grey;
 	border-style: solid none solid none;
 	display: flex;
 	margin-top:60px;
