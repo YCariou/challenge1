@@ -16,14 +16,24 @@
 body {
 	background: #000;
 	color: white;
+	font-family: sans-serif;
 }
 .bigcontainer {
-	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/background.jpg) top;
+	background: url(images/background.jpg) top no-repeat;
 	background-size: cover;
-	background-attachment: fixed;
-	background-position-y:-350px;
+
+	background-position-y:-398px;
 	width:1366px;
+	height: 950px;
 }
+
+.blackband {
+	height: 475px;
+	width: 1366px;
+	background: rgba(0,0,0,0.5);
+	position: absolute;
+}
+
 
 h1 {
 	color: #fff;
@@ -88,6 +98,7 @@ nav ul li {
 }
 
 
+
 /*Main */ 
 .main{
 	display: flex; 
@@ -101,13 +112,15 @@ nav ul li {
 .album{
  	width: 380px;
  	height: 690px;
+ 	margin-top: 40px;
 }
 
 .pochette{
-	margin-top: 10px;
+	margin-top: 20px;
 	width:340px;
 	height: 340px;
 	display: block;
+
 }
 
 button {
@@ -120,15 +133,58 @@ button {
 
 }
 
+
+
 .tableau{
 	width:725px;
 	height: 740px;
+	padding-top: 50px;
+}
+.MusicTitle{
+ 	font-size: 32px;
+ 	font-weight: lighter;
+
 }
 
+.tableau p{
+	padding-bottom: 20px;
+}
 
+.tableau ul li{
+	border-top: 1px solid white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 22px;
+	list-style-type: none;
+}
+.tableau ul li:nth-child(8){
+	border-bottom: 1px solid white;
+}
 
-
-
+#tempslecture{
+	margin-left: 450px;
+}
+ #tempslecture2{
+	margin-left: 620px;
+}
+ #tempslecture3{
+	margin-left: 510px;
+}
+ #tempslecture4{
+	margin-left: 520px;
+}
+ #tempslecture5{
+	margin-left: 505px;
+}
+ #tempslecture6{
+	margin-left: 445px;
+}
+ #tempslecture7{
+	margin-left: 449px;
+}
+ #tempslecture8{
+	margin-left: 485px;
+}
 
 /* ABOUT */
 
@@ -147,9 +203,12 @@ button {
 	margin: 0 20px;
 }
 
-.about img {
+.about .imagevideo{
 	width: 472px;
 	height: 342px;
+	background: url(images/video-like-a-rose-530x300.jpg) no-repeat;
+	display: block;
+	background-size: 70%;
 }
 
 .about p, .about a {
