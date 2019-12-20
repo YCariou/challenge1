@@ -7,37 +7,37 @@
 
 
 <body>
-		
-	<div class="bigcontainer">
+		<div class="blackband">
+			<div class="container">
 
-		<div class="HEADER">
 					<nav>
 						<ul>
-							<li><a href="#">HOME</a></li>
-							<li><a href="#">BIO</a></li>
-							<li><a href="#">PHOTOS</a></li>
-							<li><a href="#">MUSIC</a></li>
-							<li><a href="#">VIDEOS</a></li>
-							<li><a href="#">NEWS</a></li>
-							<li><a href="#">TOUR</a></li>
-							<li><a href="#">CONTACT</a></li>
+							<li><a href="index.html">HOME</a></li>
+							<li><a href="bio.html">BIO</a></li>
+							<li><a href="photos.html">PHOTOS</a></li>
+							<li><a href="music.html">MUSIC</a></li>
+							<li><a href="page-videos.html">VIDEOS</a></li>
+							<li><a href="news.html">NEWS</a></li>
+							<li><a href="tour.html" >TOUR</a></li>
+							<li><a href="contact.html"  class="active">CONTACT</a></li>
 						</ul>
 					</nav>
+	
+		<div class="HEADER">
 
-		<h1> Projet Audio </h1>
-		<h2> Contact </h2>
+		<h1> PROJET AUDIO </h1>
+		<h2> CONTACT </h2>
 		</div>
 
-		<hr>
-
+		
 		<div class="main">
 				<div class="formulaire">
-						<div>
-							<label for="name"><h4>Name</h4> (required) </label>
+						<div class="name1">
+							<label for="name"><h4>Name  <span class="colorgrey">(required)</span></h4> </label>
 							<input type="text" id="name" name="user_name">
 						</div>
 						<div>
-							<label for="mail"><h4>Email</h4> (required) </label>
+							<label for="mail"><h4>Email  <span class="colorgrey">(required)</span></h4></label>
 							<input type="email" id="mail" name="user_mail">
 						</div>
 						<div>
@@ -45,11 +45,11 @@
 							<input type="website" id=website name="website">
 						</div>
 						<div>
-							<label for="comment"><h4>Comment</h4> (	required)</label>
+							<label for="comment"><h4>Comment<span class="colorgrey">(required)</span></h4></label>
 							<textarea id="msg" name="user_message"></textarea>
 						</div>
 						<div class="button">
-							<button type="submit">Submit >></button>
+							<a href=""><button type="submit">SUBMIT >> </button></a>
 						</div>
 				</div>
 
@@ -57,52 +57,74 @@
 						
 						<div class="SearchBar">
 							<label for="search"></label>
-							<input type="search" id=search name="Search">
+							<input type="search" id=search name="Search" value="  Search...">
 						</div>
 						<div>
 							<h4>LATEST NEWS</h4>
-							<p>
-							<em>Welcome to our redesigned website</em>
 							<br>
-							Props to AudioThme for providing the killer Obsidian WordPress Theme. Feel free to poke aroud, str...</p>
-							<sub> APRIL 1, 2015</sub>
-
-						
-							<p>
-							<em>New tour dates posted</em>
-							<br>
-							We just announced a hanful of new tour dates in support of our latest alvum. Check"em out he...</p>
-							<sub> DECEMBER 16, 2014</sub>
-
-							<p><em>History of Popular Music</em><br>
-							"The most signifiant feature of the meergent popular music industry of the late 18th and earl"</p>
-							<sub> APRIL 1, 2015</sub>
+							
+							<p class="gras">Welcome to our redesigned website</p>
+							<p>Props to AudioThme for providing the killer Obsidian WordPress Theme. Feel free to poke aroud, str...</p>
+							<sub><br/> APRIL 1, 2015</sub>
+							
+							
+							<p class="gras"><br/>New tour dates posted</p>
+							<p>We just announced a hanful of new tour dates in support of our latest alvum. Check"em out he...</p>
+							<sub><br/> DECEMBER 16, 2014</sub>
+							
+							<p class="gras"><br/>History of Popular Music</p>
+							<p>"The most signifiant feature of the meergent popular music industry of the late 18th and earl...</p>
+							<sub><br/> APRIL 1, 2015</sub>
+							
 						</div>
 
 				</div>
 		</div>
+					<div class="about">
+						<article>
+							<h4>ABOUT OBSIDIAN</h4>
+							<p>The Obsidian theme, like the naturally occurring volcanic glass of the same name, possesses an inherent allure that's stylish in appearance and practical in purpose. With distintive background options and various customization possibilities, Obsidian makes it easy to create the ultimate hub for your online identity.</p>
+						</article>
+						<article>
+							<h4>VIVIENNE'S OMITTED LINE</h4>
+							<img src="images/album-03-300x300.jpg">
+						</article>
+						<article>
+							<h4>RECENT POSTS</h4>
+							<a href="#">Welcome to our redesigned website</a>
+							<sub>APRIL 1, 2015</sub>
+							<a href="#">New tour dates posted</a>
+							<sub>DECEMBER 16, 2014</sub>
+							<a href="#">History of Popular Music</a>
+							<sub>DECEMBER 15, 2014</sub>
+						</article>
+					</div>
 
-				<div class="about">
-					<article>
-						<h4>ABOUT OBSIDIAN</h4>
-						<p>The Obsidian theme, like the naturally occurring volcanic glass of the same name, possesses an inherent allure that's stylish in appearance and practical in purpose. WIth distintive background options and various customization possibilities, Obsidian makes it easy to create the ultimate hub for your online identity.</p>
-					</article>
-					<article>
-						<h4>VIVIENNE'S OMITTED LINE</h4>
-						<img src="images/album-03-300x300.jpg">
-					</article>
-					<article>
-						<h4>RECENT POSTS</h4>
-						<a href="#">Welcome to our redesigned website</a>
-						<sub>APRIL 1, 2015</sub>
-						<a href="#">New tour dates posted</a>
-						<sub>DECEMBER 16, 2014</sub>
-						<a href="#">History of Popular Music</a>
-						<sub>DECEMBER 15, 2014</sub>
-					</article>
-				</div>
+					<footer>
+						<ul>
+							<li><a href='#' class='symbol' title='twitterbird'></a></li>
+							<li><a href='#' class='symbol' title='facebook'></a></li>
+							<li><a href='#' class='symbol' title='instagram'></a></li>
+							<li><a href='#' class='symbol' title='youtube'></a></li>
+							<li><a href='#' class='symbol' title='vimeo'></a></li>
+							<li><a href='#' class='symbol' title='amazon'></a></li>
+							<li><a href='#' class='symbol' title='apple'></a></li>
+							<li><a href='#' class='symbol' title='soundcloud'></a></li>
+							<li><a href='#' class='symbol' title='yahoobuzz'></a></li>
+							<li><a href='#' class='symbol' title='spotify'></a></li>
+						</ul>
+						<p class="pfooter">OBSIDIAN MUSIC THEME BY AUDIOTHEME.</p>
+					</footer>
 
-	</div>
-</body>
+			<figure class="divson">
+				<iframe src="https://open.spotify.com/embed/album/6P7WO2yLdzzVmRLILb85Gj" width="100%" height="100" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+			</figure>
 
-</html>
+			</div>
+
+		</div>
+
+	</body>
+
+
+</html

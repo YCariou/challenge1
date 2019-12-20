@@ -49,8 +49,8 @@ a.symbol:before {
 
 iframe {
  	width: 1100px;
-  }
 
+}
 /* GENERAL */
 
 * {
@@ -59,6 +59,7 @@ iframe {
 	box-sizing: border-box;
 }
 
+
 body {
 	background: #000;
 	font-family: sans-serif;
@@ -66,14 +67,25 @@ body {
 	background-size: cover;
 	background-position-y: -500px;
 	background-attachment: fixed;
+	color: white;
 }
 
 .container {
 	width: 1100px;
 }
 
-.active {
-	color: #fff;
+.blackband {
+	height: 428px;
+	width: 100%;
+	background: rgba(0,0,0,0.5);
+	position: absolute;
+}
+
+
+
+.paragraphs {
+	display: flex;
+	border-top: 1px solid grey;
 }
 
 /* NAVBAR */
@@ -108,153 +120,108 @@ nav ul li {
 
 /* MAIN IMAGE */
 
-header {
-	display:flex;
-	flex-direction: column;
-	height: 644px;
-	width: 1100px;
-	position: relative;
-}
-
-header h2 {
-	color: #ababab;
-	position: relative;
-	bottom: 250px;
-	font-size: 100%;
+.HEADER {
+	width:1100px;
+	height: 342px; 
+	text-align: center;
 }
 
 h1 {
 	color: #fff;
 	margin: auto;
-	font-size: 600%;
-	font-family: Mukta;
-	font-weight: 20;
+	font-size: 500%;
+	font-weight: lighter;
+	font-family: "mukta";
+	padding-top: 50px;
+}
+h2{
+	font-family: "Mukta";
+	font-weight: lighter;
+	font-size: 32px;
+	padding-top: 80px;
 }
 
-/* VIDEOS */
-
-h2 {
+h3{
 	color: #fff;
+	font-size: 200%;
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+
+.active {
+	color: #fff;
+}
+
+
+#pmarge {
+	margin-top: 30px;
+}
+
+/*CASES 1 ET 2  */
+
+.cases ul{
+	padding-top: 10px;
+	padding-left: 50px;
+}
+
+.cases ul li {
 	display: inline-block;
+	border: 1px solid grey;
+	padding:10px;
+	padding-left: 13px;
+	padding-right: 13px;
 }
 
-.mainvideos{
-	position: relative;
-	margin-top: 120px;
-}
-
-.mainvideos p{
-	position: absolute;
-	right:0;
-	display: inline-block;
-	color: #ababab;
-}
-
-.videos {
-	display: flex;
-	/*justify-content: space-between;*/
-	width: 1100px;
+.case1 {
+	background-color: lightgrey;
 }
 
 
-.videos article:nth-child(1) {
-	padding: 20px 20px 20px 0;
-	border-style: solid solid solid none;
+/* On the Right */ 
+
+.latestnews {
+	width: 345px;
+	margin-top: 50px;
 }
 
-.videos article:nth-child(2) {
-	padding: 20px;
+#search{
+	width: 340px;
+	height:40px;
+	background: rgba(0, 0, 0, 0.2);
+	border: 1px solid #ababab;
+	margin-bottom: 55px;
+	color: grey;
 }
-
-.videos article:nth-child(3) {
-	padding: 20px 0 20px 20px;
-	border-style: solid none solid solid;
-}
-
-.videos article {
-	border: solid 1px grey;
-	margin: 0;
-}
-
-.videos article img {
-	height: 193px;
-	width: 339px;
-}
-
-.videos article h4 {
-	padding: 15px 0 5px 0;
+.gras{
+	font-weight: bolder;
+	padding-bottom: 0;
 	color: #fff;
 }
-/* TOUR DATE */
-
-.tournée {
-	margin-top: 80px;
+.latestnews p {
+	padding: 20px 0 0 0;
 }
 
-.tournée h2 {
-	margin-bottom:22px;
+.leftpara{
+	width: 630px;
+	border-bottom: 1px solid grey;
+	padding-bottom: 30px;
 }
 
-.tournéeband {
-	border: grey 1px;
-	border-style: solid none none none;
-	height: 60px;
+.leftpara img {
+	width: 630px;
 }
 
-.tournéeband:nth-child(6) {
-	border: 1px grey;
-	border-style: solid none solid none;
+.bybrody {
+	/*font-weight: bold;*/
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
-.tournée p {
-	display: inline-block;
-	vertical-align: middle;
-
-}
-
-.tournée p:nth-child(1) {
-	color: #ababab;
-	margin-left: 10px;
-	margin-right: 20px;
-
-}
-
-.tournée p:nth-child(2) {
-	color: #fff;
-	font-size: 150%;
-	font-weight: bolder;
-}
-
-.tournée p:nth-child(3) {
-	color: #ababab;
-	margin: 0 285px 0 85px;
-	width: 200px;
-	height: 60px;
-	padding: 20px;
-	font-weight: bolder;
-}
-
-.tournée p:nth-child(4) {
+a {
 	color: #ababab;
 }
 
-.gigs {
-	height: 115px;
-	display: flex;
-}
 
-.gigs a {
-	text-decoration: none;
-	color: #ababab;
-	margin: auto;
-	position: relative;
-	bottom: 20px;
-	font-weight: bolder;
-}
-
-.gigs a:hover {
-	color: #fff;
-}
 
 /* ABOUT */
 
@@ -264,6 +231,7 @@ h2 {
 	border: 1px grey;
 	border-style: solid none solid none;
 	display: flex;
+	margin-top: 30px;
 }
 .about article {
 	width: 33%;
@@ -279,29 +247,23 @@ h2 {
 }
 
 .about p, .about a {
-	color: #fff;
+	color: #ababab;
 	text-decoration: none;
 }
 
 .about article:nth-child(3) {
-	text-align: left;
+	display: flex;
+	flex-direction: column;
 }
 
 .about a {
+	color: #fff;
 	padding: 7px 0 18px 0;
-	font-height: bolder;
-	display: block;
 }
 
 .about h4 {
 	color: #fff;
 	padding: 57px 0 33px 0;
-}
-
-.about article sub {
-	margin-bottom: 46px;
-	display: block;
-	color: #ababab;
 }
 
 /* FOOTER */

@@ -105,90 +105,95 @@ nav ul li {
 .active{
 	color: white;
 }
-/* MAIN */ 
 
+
+
+/*Main */ 
 .main{
 	display: flex; 
 	justify-content: space-around;
 	align-content: center;
 	width: 1100px;
-	border-top: 1px solid #ababab;
+	border-top: 1px solid grey;
 	margin-bottom: 50px;
-	
 }
 
-.formulaire{
-	width: 755px; 
-	margin-top: 50px;
-}
-.colorgrey{
-	color: grey;
-}
-#name {
- width: 300px;
- height: 40px;
-	background: rgba(0, 0, 0, 0.2);
-	border: 1px solid rgba(100, 100, 100, 0.4);
- margin-bottom: 10px;
+.album{
+ 	width: 380px;
+ 	height: 690px;
+ 	margin-top: 40px;
 }
 
+.pochette{
+	margin-top: 20px;
+	width:340px;
+	height: 340px;
+	display: block;
 
-#mail { 
-	width: 300px;
-	height: 40px;
-
-	margin-bottom: 10px;
-	background: rgba(0, 0, 0, 0.2);
-	border: 1px solid rgba(100, 100, 100, 0.4);
- }
-
-#website {
-	width: 300px;
- 	height: 40px;
-	background: rgba(0, 0, 0, 0.2);
-	border: 1px solid rgba(100, 100, 100, 0.4);
-	 margin-bottom: 10px;
-}
-#msg{
-	width: 575px;
-	height: 200px;
-	background: rgba(0, 0, 0, 0.2);
-	border: 1px solid rgba(100, 100, 100, 0.4);
-	 margin-bottom: 10px;
 }
 
 button {
-	width: 115px;
+	width: 340px;
 	height: 40px;
 	color: white;
 	background: rgba(18, 16, 16, 0.6);
 	border:none;
-}
+	margin-top: 5px;
 
-/* On the Right */ 
-
-.latestnews {
-	width: 345px;
-	margin-top: 50px;
-}
-#search{
-	width: 340px;
-	height:40px;
-	background: rgba(0, 0, 0, 0.2);
-	border: 1px solid #ababab;
-	margin-bottom: 55px;
-	color: grey;
-}
-.gras{
-	font-weight: bolder;
-	padding-bottom: 0;
-}
-.latestnews p {
-	padding: 20px 0 0 0;
 }
 
 
-/* ABOUT */
+
+.tableau{
+	width:725px;
+	height: 740px;
+	padding-top: 50px;
+}
+.MusicTitle{
+ 	font-size: 32px;
+ 	font-weight: lighter;
+
+}
+
+.tableau p{
+	padding-bottom: 20px;
+}
+
+.tableau ul li{
+	border-top: 1px solid white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 22px;
+	list-style-type: none;
+}
+.tableau ul li:nth-child(8){
+	border-bottom: 1px solid white;
+}
+
+#tempslecture{
+	margin-left: 450px;
+}
+ #tempslecture2{
+	margin-left: 620px;
+}
+ #tempslecture3{
+	margin-left: 510px;
+}
+ #tempslecture4{
+	margin-left: 520px;
+}
+ #tempslecture5{
+	margin-left: 505px;
+}
+ #tempslecture6{
+	margin-left: 445px;
+}
+ #tempslecture7{
+	margin-left: 449px;
+}
+ #tempslecture8{
+	margin-left: 485px;
+}
 
 /* ABOUT */
 
