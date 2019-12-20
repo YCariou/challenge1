@@ -182,16 +182,15 @@ nav ul li {
 /* FOOTER */
 
 footer {
-	height: 190px;
+	height: 250px;
 }
 
 .pfooter {
-	color: #ababab;
+	color: #fff;
 	text-align: center;
 	font-size: 90%;
 	position: relative;
 	bottom: 15px;
-
 }
 
 footer ul {

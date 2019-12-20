@@ -66,6 +66,7 @@ body {
 	background-size: cover;
 	background-position-y: -500px;
 	background-attachment: fixed;
+	color: white;
 }
 
 .container {
@@ -77,9 +78,10 @@ body {
 }
 
 .bandeaunoir {
-	height: 350px;
-	background: rgba(0,0,0,0.5);
+	height: 428px;
 	width: 100%;
+	background: rgba(0,0,0,0.5);
+	position: absolute;
 }
 
 /* NAVBAR */
@@ -114,12 +116,9 @@ nav ul li {
 
 /* MAIN IMAGE */
 
-header {
-/*	display:flex;
-	flex-direction: column;*/
-	height: 267px;
-	width: 1100px;
-	/*position: relative;*/
+.HEADER {
+	width:1100px;
+	height: 342px; 
 	text-align: center;
 }
 
@@ -133,20 +132,19 @@ header h2 {
 
 h1 {
 	color: #fff;
+
+	margin: auto;
 	font-size: 500%;
-	font-family: Mukta;
 	font-weight: lighter;
-	height: 50px;
+	font-family: "mukta";
+	padding-top: 50px;
 }
-
-/* VIDEOS */
-
-h2 {
-	color: #fafafa;
-	display: inline-block;
-	font-family: Mukta;
+h2{
+	font-family: "Mukta";
 	font-weight: lighter;
 	font-size: 32px;
+	padding-top: 80px;
+
 }
 
 .mainvideos{
@@ -248,7 +246,7 @@ h2 {
 /* FOOTER */
 
 footer {
-	height: 190px;
+	height: 250px;
 }
 
 .pfooter {
